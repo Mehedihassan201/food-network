@@ -1,0 +1,140 @@
+/* Header */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: orange;
+}
+
+li {
+  float: right;
+  padding-right: 50px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+/* first Section */
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+h1 {
+  font-size: 62px;
+  height: 65px;
+  color: rgb(75, 75, 75);
+  line-height: normal;
+  word-spacing: normal;
+  text-align: left;
+  margin: auto;
+  padding-top: 10px;
+}
+p {
+  margin-top: 65px;
+  margin-bottom: 50px;
+  font-size: 22px;
+}
+.orange-color {
+  color: orange;
+}
+.flexible-container {
+  display: flex;
+  margin-bottom: 100px;
+}
+.half-width {
+  width: 50%;
+  padding-left: 5%;
+}
+.half-width img {
+  width: 80%;
+}
+#left-width {
+  margin-top: 110px;
+}
+.link-button {
+  text-decoration: none;
+  background-image: linear-gradient(orange, tomato);
+  padding: 10px 40px;
+  margin-top: 20px;
+  color: white;
+  font-size: 700;
+  border-radius: 25px;
+  box-shadow: 8px 6px 8px orangered;
+}
+/* second Section */
+h2 {
+  font-size: 33px;
+  margin-top: 10px;
+  color: rgb(75, 75, 75);
+}
+.sec-half-width p {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  font-size: 22px;
+}
+.container {
+  display: flex;
+  margin-bottom: 100px;
+}
+.sec-half-width {
+  width: 50%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.sec-half-width img {
+  width: 63%;
+  padding-left: 35%;
+}
+.mid-banner {
+  background-image: url(images/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 100px;
+}
+/* third Section */
+.menu-center {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+}
+.title h1 {
+  text-align: center;
+}
+.title p {
+  width: 50%;
+  margin-top: 45px;
+  margin-bottom: 45px;
+  padding-left: 390px;
+  text-align: center;
+}
+.menu-box {
+  width: 75%;
+  height: 520px;
+  min-height: fit-content;
+  margin: auto;
+  margin-top: 0;
+  padding: 25px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+}
+.menu-box img {
+  height: 270px;
+  object-fit: cover;
+}
+.menu-box p {
+  padding-top: 5px;
+  font-size: 25px;
+  margin: 0;
+  color: rgb(75, 75, 75);
+}
